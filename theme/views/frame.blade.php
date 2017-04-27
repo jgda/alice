@@ -12,7 +12,7 @@
                 @if($config->get('logoImage.path'))
                     <img src="{{ $config->get('logoImage.path') }}" alt="{{ xe_trans($config->get('logoText', '')) }}"/>
                 @else
-                    {!! xe_trans($config->get('logoText', 'Alice')) !!}
+                    {!! xe_trans($config->get('logoText', 'JGDA')) !!}
                 @endif
                 </a>
             </h1>
