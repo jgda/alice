@@ -9,12 +9,11 @@
         <div class="brand-area">
             <h1>
                 <a href="{{ url('/') }}" class="link-brand">
-                <!-- @if($config->get('logoImage.path')) -->
+                @if($config->get('logoImage.path'))
                     <img src="{{ $config->get('logoImage.path') }}" alt="{{ xe_trans($config->get('logoText', '')) }}"/>
-                    JGDA
-               <!--  @else
+                @else
                     {!! xe_trans($config->get('logoText', 'JGDA')) !!}
-                @endif -->
+                @endif
                 </a>
             </h1>
         </div>
