@@ -103,7 +103,7 @@
                     </div>
                     @endif
 
-                    <p class="float-right">Made by Junggu Design Automation Inc.</a></p>
+                    <p class="float-right">Made by JGDA Inc.</a></p>
                 </div>
             </div>
         </div>
