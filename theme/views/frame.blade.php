@@ -103,7 +103,7 @@
                     </div>
                     @endif
 
-                    <p class="float-right">Made by <a href="http://xpressengine.io">XE</a></p>
+                    <p class="float-right">Made by Junggu Design Automation Inc.</a></p>
                 </div>
             </div>
         </div>
